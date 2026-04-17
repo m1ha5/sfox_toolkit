@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS order_responses (
+  id            INTEGER PRIMARY KEY AUTOINCREMENT,
+  order_row_id  INTEGER NOT NULL,
+  response_json TEXT NOT NULL,
+  created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

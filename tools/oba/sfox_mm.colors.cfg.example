@@ -1,0 +1,29 @@
+{
+  "sfox_mm_version": "1.51",
+  "comment": {
+    "sfox_mm_version": "Keep this value in sync with __version__ in sfox_mm.py when you edit the example.",
+    "values": "Each theme key below is a foreground color: black, red, green, yellow, blue, magenta, cyan, white. Use -1 for the terminal default foreground.",
+    "header_fg": "Color for main column headers: full mode asset names and bps row; summary mode sym, sprd, bidSz, askSz header cells.",
+    "title_fg": "Color for the top title line (sFOX Market Monitor SUMMARY/FULL and version).",
+    "label_fg": "Color for left ladder labels in full mode (e.g. +10, MID, -5) except ask/bid/zero styling.",
+    "ask_fg": "Color for ask-side prices, ASK reference row prices, and the +bps ask ladder prices.",
+    "bid_fg": "Color for bid-side prices, BID reference row prices, and the -bps bid ladder prices.",
+    "mid_fg": "Color for summary mid column (header + price), full/orderbook ASK/MID/BID MID row label and mid prices.",
+    "zero_row_fg": "Color for the mid (zero) ladder row label (bps=0 row), not the ASK/MID/BID reference row.",
+    "cell_fg": "Default text color: sizes, spread, summary bid/ask sizes, neutral diff (+0.0000), and prices not styled as ask/bid.",
+    "hint_fg": "Color for footer hints, GMT/feed lines, and secondary sub-headers (px, sz, diff under each asset).",
+    "diff_pos_fg": "Diff column when the price delta vs the first asset is strictly positive (same-base multi-asset diff).",
+    "diff_neg_fg": "Diff column when the delta is negative (often combined with bold in the UI)."
+  },
+  "header_fg": "cyan",
+  "title_fg": "white",
+  "label_fg": "yellow",
+  "ask_fg": "red",
+  "bid_fg": "yellow",
+  "mid_fg": "cyan",
+  "zero_row_fg": "white",
+  "cell_fg": "white",
+  "hint_fg": "blue",
+  "diff_pos_fg": "green",
+  "diff_neg_fg": "red"
+}

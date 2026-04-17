@@ -1,0 +1,6 @@
+# Minimal pins for `pip3 install -r requirements.txt` (no editable package).
+# For development, prefer: pip3 install -e ".[dev]"  (see README.md and pyproject.toml)
+requests>=2.28.0
+tabulate>=0.9.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
