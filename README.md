@@ -1,4 +1,4 @@
-# sfox_trader
+# SFOX TOOLKIT
 
 Unofficial sFOX trading utilities for algorithmic trading and portfolio management.
 
